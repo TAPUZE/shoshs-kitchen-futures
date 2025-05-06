@@ -35,8 +35,7 @@ const MissionSection: React.FC = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-playfair">Our Vision</h2>
             <div className="bg-white/10 p-6 rounded-lg mb-8">
               <p className="text-xl italic font-light leading-relaxed">
-                "To create a nurturing culinary school where teenagers discover their potential, 
-                develop valuable skills, and build confidence for brighter futures."
+                "Cooking Up Brighter Futures"
               </p>
             </div>
             <p className="text-lg mb-6 leading-relaxed">
@@ -53,8 +52,7 @@ const MissionSection: React.FC = () => {
           <div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-playfair">Our Mission</h2>
             <p className="text-lg mb-6 leading-relaxed">
-              To empower teenagers through professional culinary training, mentorship, and life skills development, 
-              creating opportunities for personal growth and future success.
+              "The Knead for Change isn't just a school; it's a promise of a brighter future. Through the power of food, we will heal, teach, and empower the next generation."
             </p>
             
             <h3 className="text-2xl font-semibold mb-4">Our Core Values</h3>

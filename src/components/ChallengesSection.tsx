@@ -9,13 +9,13 @@ const ChallengesSection: React.FC = () => {
       icon: <DollarSign className="h-10 w-10 text-culinary-terra" />,
       title: "Securing Funding",
       description: "Obtaining grants, investments, and community support to establish and maintain the school.",
-      solution: "Research relevant grants, prepare compelling presentations for investors, and build community partnerships."
+      solution: "Research and apply for relevant grants, prepare compelling presentations for potential investors."
     },
     {
       icon: <MapPin className="h-10 w-10 text-culinary-terra" />,
       title: "Finding the Right Location",
       description: "Identifying an accessible, suitable space that meets our needs and budget constraints.",
-      solution: "Network with local real estate agents, explore shared kitchen spaces, and consider phased expansion."
+      solution: "Network with local real estate agents and community leaders to find the perfect space."
     },
     {
       icon: <Scroll className="h-10 w-10 text-culinary-terra" />,
@@ -27,7 +27,7 @@ const ChallengesSection: React.FC = () => {
       icon: <Users className="h-10 w-10 text-culinary-terra" />,
       title: "Outreach to Teens",
       description: "Connecting with and recruiting teenagers who would benefit most from our program.",
-      solution: "Partner with schools, community centers, and social services to identify and engage potential students."
+      solution: "Begin outreach through community centers and schools to identify potential students."
     }
   ];
 
@@ -59,12 +59,14 @@ const ChallengesSection: React.FC = () => {
         </div>
         
         <div className="mt-16 bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-          <h3 className="text-xl font-semibold mb-4 text-culinary-brown">Overcoming Obstacles Together</h3>
-          <p className="text-gray-700">
-            While these challenges are significant, I believe with proper planning, community support, and a clear vision, 
-            we can transform them into stepping stones toward success. Every obstacle presents an opportunity 
-            to strengthen our foundation and refine our approach.
-          </p>
+          <h3 className="text-xl font-semibold mb-4 text-culinary-brown">Action Plan</h3>
+          <ul className="list-disc pl-6 text-gray-700 grid md:grid-cols-2 gap-x-8 gap-y-3">
+            <li><span className="font-medium">Funding Strategy:</span> Research and apply for relevant grants, prepare compelling presentations for potential investors.</li>
+            <li><span className="font-medium">Location Search:</span> Network with local real estate agents and community leaders to find the perfect space.</li>
+            <li><span className="font-medium">Curriculum Development:</span> Consult with educators, chefs, and youth development specialists to create engaging program.</li>
+            <li><span className="font-medium">Community Outreach:</span> Begin outreach through community centers and schools to identify potential students.</li>
+            <li><span className="font-medium">Build Partnerships:</span> Connect with local businesses, restaurants, and community organizations for support.</li>
+          </ul>
         </div>
       </div>
     </section>

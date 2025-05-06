@@ -7,7 +7,7 @@ const AboutSection: React.FC = () => {
   const skills = [
     {
       icon: <ChefHat className="h-8 w-8 text-culinary-terra" />,
-      name: 'Culinary Expertise',
+      name: 'Professional Chef Expertise',
       description: 'Professional cooking skills honed through years of experience.'
     },
     {

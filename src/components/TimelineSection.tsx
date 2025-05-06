@@ -9,22 +9,22 @@ const TimelineSection: React.FC = () => {
     {
       icon: <FileText className="h-6 w-6 text-white" />,
       title: "Develop Business Plan & Seek Funding",
-      description: "Create a comprehensive business plan and identify potential funding sources."
+      description: "Research grants, prepare investor presentations, build financial projections."
     },
     {
       icon: <Search className="h-6 w-6 text-white" />,
       title: "Identify & Secure School Location",
-      description: "Find and secure an appropriate facility for our culinary school."
+      description: "Network with real estate agents, find accessible location with proper facilities."
     },
     {
       icon: <Users className="h-6 w-6 text-white" />,
       title: "Build Core Team & Advisory Board",
-      description: "Assemble a dedicated team and advisors with relevant expertise."
+      description: "Recruit passionate professionals with complementary skills."
     },
     {
       icon: <BookOpen className="h-6 w-6 text-white" />,
       title: "Develop Curriculum & Pilot Program",
-      description: "Create our educational framework and test it with a small group."
+      description: "Create engaging lesson plans and test with small group of students."
     }
   ];
 
@@ -32,22 +32,22 @@ const TimelineSection: React.FC = () => {
     {
       icon: <School className="h-6 w-6 text-white" />,
       title: "Established School with Full Enrollment",
-      description: "Fully operational school with multiple classes and cohorts."
+      description: "Vibrant community of students learning culinary and life skills."
     },
     {
       icon: <Handshake className="h-6 w-6 text-white" />,
-      title: "Industry Partnerships for Student Opportunities",
-      description: "Collaborations with local restaurants and food businesses for internships."
+      title: "Industry Partnerships",
+      description: "Connections with local restaurants and food businesses for internships."
     },
     {
       icon: <Award className="h-6 w-6 text-white" />,
-      title: "Successful Graduate Program",
-      description: "Alumni network and ongoing support for graduates."
+      title: "Successful Graduates",
+      description: "Alumni making their way in culinary careers and beyond."
     },
     {
       icon: <ArrowRightCircle className="h-6 w-6 text-white" />,
-      title: "Potential for Expansion",
-      description: "Growth opportunities to reach more communities and teens."
+      title: "Potential to Expand Impact",
+      description: "Additional locations or programs to reach more teens."
     }
   ];
 
@@ -55,9 +55,8 @@ const TimelineSection: React.FC = () => {
     <section id="timeline" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <h2 className="section-title">Future Plans & Timeline</h2>
-        <p className="text-lg max-w-3xl mb-12">
-          Turning our vision into reality requires careful planning and strategic implementation. 
-          Here's our roadmap for bringing The Knead for Change to life.
+        <p className="text-lg max-w-3xl mb-8">
+          The roadmap to making "The Knead for Change" a reality
         </p>
         
         <div className="grid md:grid-cols-2 gap-12">
@@ -107,11 +106,10 @@ const TimelineSection: React.FC = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <p className="text-lg font-medium text-culinary-brown mb-2">Action Plan</p>
-          <p className="max-w-2xl mx-auto text-gray-700">
-            Every step of our journey will be purposeful and mission-driven. We are committed to careful planning, 
-            thoughtful execution, and continuous improvement to ensure the success of The Knead for Change and, 
-            most importantly, the success of our students.
+          <p className="text-lg font-medium text-culinary-brown mb-2">Our Promise</p>
+          <p className="max-w-2xl mx-auto text-gray-700 italic">
+            "The Knead for Change isn't just a school; it's a promise of a brighter future. Through the power of food, 
+            we will heal, teach, and empower the next generation."
           </p>
         </div>
       </div>

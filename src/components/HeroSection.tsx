@@ -26,6 +26,14 @@ const HeroSection: React.FC = () => {
         <h2 className="text-xl sm:text-2xl md:text-3xl text-culinary-cream font-light mb-8 max-w-3xl mx-auto animate-slide-up">
           Empowering Teens Through Culinary Skills
         </h2>
+        <p className="text-lg text-white mb-8 max-w-2xl mx-auto">
+          A safe space where teens learn culinary skills, build confidence, and create their future
+        </p>
+        <div className="flex flex-wrap gap-4 justify-center mb-6">
+          <span className="bg-white/20 px-4 py-2 rounded-full text-white">Skill Building</span>
+          <span className="bg-white/20 px-4 py-2 rounded-full text-white">Empowerment</span>
+          <span className="bg-white/20 px-4 py-2 rounded-full text-white">Community</span>
+        </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             className={cn(

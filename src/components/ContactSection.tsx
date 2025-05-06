@@ -19,7 +19,7 @@ const ContactSection: React.FC = () => {
   return (
     <section id="contact" className="bg-culinary-cream py-16 md:py-24">
       <div className="section-container">
-        <h2 className="section-title">Get in Touch</h2>
+        <h2 className="section-title">Join Our Journey</h2>
         <p className="text-lg max-w-3xl mb-12">
           Interested in supporting The Knead for Change? Have questions or suggestions? 
           I'd love to hear from you. Let's work together to make this vision a reality.
